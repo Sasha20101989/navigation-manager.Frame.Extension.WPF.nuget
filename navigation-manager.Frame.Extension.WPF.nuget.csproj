@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
     <RootNamespace>Navigation.Manager.Frame.Extension.WPF</RootNamespace>
 	<UseWPF>true</UseWPF>
-	<Version>5.0.0</Version>
+	<Version>8.0.0</Version>
 	<Authors>Aleksander Felyugin</Authors>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<AssemblyVersion>5.0.0</AssemblyVersion>
-	<FileVersion>5.0.0</FileVersion>
+	<AssemblyVersion>8.0.0</AssemblyVersion>
+	<FileVersion>8.0.0</FileVersion>
 	<PackageProjectUrl>http://10.135.130.163/itis/is/creuc/nuget-galery/nuget-library/navigation-manager.Frame.Extension.WPF.nuget</PackageProjectUrl>
 	<RepositoryUrl>http://10.135.130.163/itis/is/creuc/nuget-galery/nuget-library/navigation-manager.Frame.Extension.WPF.nuget</RepositoryUrl>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -24,11 +24,12 @@
 	</Description>
 	<Product>NavigationManager.Extension.WPF</Product>
 	<PackageId>NavigationManager.Extension.WPF</PackageId>
+	<SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
 
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="PageManager.WPF" Version="5.0.0" />
+    <PackageReference Include="PageManager.WPF" Version="8.0.0" />
   </ItemGroup>
 
 </Project>
